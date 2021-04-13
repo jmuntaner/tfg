@@ -1,5 +1,5 @@
 # Exploring Reinforcement Learning in NMT
-Implementation reference {#sec:appendix}
+Implementation reference
 ========================
 
 In this appendix we provide an overview of our scripts and some
