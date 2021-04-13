@@ -1,0 +1,2 @@
+Namespace(ignore_case=False, order=4, ref='/home/usuaris/veu/joan.muntaner/experiments/data/wiki_ne_en_bpe5000/test.en', sacrebleu=False, sentence_bleu=False, sys='/home/usuaris/veu/joan.muntaner/experiments/simplenmt/simple-nmt/tmp.txt')
+BLEU4 = 1.10, 18.1/2.7/0.4/0.1 (BP=1.000, ratio=1.015, syslen=46383, reflen=45686)

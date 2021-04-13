@@ -1,0 +1,2 @@
+Namespace(ignore_case=False, order=4, ref='/home/usuaris/veu/joan.muntaner/experiments/data/iwslt14.tokenized.de-en/test.en', sacrebleu=False, sentence_bleu=False, sys='/home/usuaris/veu/joan.muntaner/experiments/simplenmt/simple-nmt/test.results.txt')
+BLEU4 = 29.96, 60.2/36.2/23.6/15.6 (BP=1.000, ratio=1.013, syslen=152135, reflen=150178)

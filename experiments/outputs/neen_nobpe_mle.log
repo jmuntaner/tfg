@@ -1,0 +1,108 @@
+/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/torchtext/data/field.py:150: UserWarning: Field class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.
+  warnings.warn('{} class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.'.format(self.__class__.__name__), UserWarning)
+/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/torchtext/data/example.py:78: UserWarning: Example class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.
+  warnings.warn('Example class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.', UserWarning)
+/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/torchtext/data/iterator.py:48: UserWarning: BucketIterator class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.
+  warnings.warn('{} class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.'.format(self.__class__.__name__), UserWarning)
+/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/torchtext/data/batch.py:23: UserWarning: Batch class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.
+  warnings.warn('{} class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.'.format(self.__class__.__name__), UserWarning)
+  0%|                                                                                          | 1/3865 [00:00<?, ?it/s]Epoch [1/30]:   0%|                                                                            | 1/3865 [00:00<?, ?it/s]Epoch [1/30]:   0%|                  | 1/3865 [00:00<?, ?it/s, loss=8.4, ppl=4.47e+3, |g_param|=4.28e+4, |param|=8.5e+3]Epoch [1/30]:   0%|                  | 1/3865 [00:00<?, ?it/s, loss=8.4, ppl=4.47e+3, |g_param|=4.28e+4, |param|=8.5e+3]Epoch [1/30]:   0%|                  | 1/3865 [00:00<?, ?it/s, loss=8.4, ppl=4.47e+3, |g_param|=4.37e+4, |param|=8.5e+3]Epoch [1/30]:   0%|          | 2/3865 [00:00<12:34,  5.12it/s, loss=8.4, ppl=4.47e+3, |g_param|=4.37e+4, |param|=8.5e+3]Epoch [1/30]:   0%|          | 2/3865 [00:00<12:34,  5.12it/s, loss=8.4, ppl=4.47e+3, |g_param|=4.37e+4, |param|=8.5e+3]Epoch [1/30]:   0%|         | 2/3865 [00:00<12:34,  5.12it/s, loss=8.42, ppl=4.59e+3, |g_param|=4.39e+4, |param|=8.5e+3]Epoch [1/30]:   0%|         | 3/3865 [00:00<18:02,  3.57it/s, loss=8.42, ppl=4.59e+3, |g_param|=4.39e+4, |param|=8.5e+3]Epoch [1/30]:   0%|         | 3/3865 [00:01<18:02,  3.57it/s, loss=8.42, ppl=4.59e+3, |g_param|=4.39e+4, |param|=8.5e+3]Epoch [1/30]:   0%|         | 3/3865 [00:01<18:02,  3.57it/s, loss=8.44, ppl=4.73e+3, |g_param|=4.54e+4, |param|=8.5e+3]Epoch [1/30]:   0%|         | 4/3865 [00:01<32:45,  1.96it/s, loss=8.44, ppl=4.73e+3, |g_param|=4.54e+4, |param|=8.5e+3]Epoch [1/30]:   0%|         | 4/3865 [00:01<32:45,  1.96it/s, loss=8.44, ppl=4.73e+3, |g_param|=4.54e+4, |param|=8.5e+3]Epoch [1/30]:   0%|          | 4/3865 [00:01<32:45,  1.96it/s, loss=8.44, ppl=4.75e+3, |g_param|=4.7e+4, |param|=8.5e+3]Epoch [1/30]:   0%|          | 5/3865 [00:01<22:59,  2.80it/s, loss=8.44, ppl=4.75e+3, |g_param|=4.7e+4, |param|=8.5e+3]Current run is terminating due to exception: CUDA out of memory. Tried to allocate 3.24 GiB (GPU 0; 11.93 GiB total capacity; 9.00 GiB already allocated; 1.47 GiB free; 9.88 GiB reserved in total by PyTorch)
+Engine run is terminating due to exception: CUDA out of memory. Tried to allocate 3.24 GiB (GPU 0; 11.93 GiB total capacity; 9.00 GiB already allocated; 1.47 GiB free; 9.88 GiB reserved in total by PyTorch)
+{   'batch_size': 128,
+    'dropout': 0.2,
+    'gpu_id': 0,
+    'hidden_size': 768,
+    'init_epoch': 1,
+    'iteration_per_update': 2,
+    'lang': 'neen',
+    'lr': 0.001,
+    'lr_decay_start': 10,
+    'lr_gamma': 0.5,
+    'lr_step': 0,
+    'max_grad_norm': 100000000.0,
+    'max_length': 100,
+    'model_fn': './model/model.nobpe.neen.pth',
+    'n_epochs': 30,
+    'n_layers': 4,
+    'n_splits': 8,
+    'off_autocast': False,
+    'rl_lr': 0.01,
+    'rl_n_epochs': 0,
+    'rl_n_gram': 6,
+    'rl_n_samples': 1,
+    'rl_reward': 'gleu',
+    'train': '/home/usuaris/veu/joan.muntaner/experiments/data/wiki_ne_en_bpe5000/train',
+    'use_adam': True,
+    'use_radam': False,
+    'use_transformer': False,
+    'valid': '/home/usuaris/veu/joan.muntaner/experiments/data/wiki_ne_en_bpe5000/valid',
+    'verbose': 2,
+    'word_vec_size': 512}
+Seq2Seq(
+  (emb_src): Embedding(67174, 512)
+  (emb_dec): Embedding(73771, 512)
+  (encoder): Encoder(
+    (rnn): LSTM(512, 384, num_layers=4, batch_first=True, dropout=0.2, bidirectional=True)
+  )
+  (decoder): Decoder(
+    (rnn): LSTM(1280, 768, num_layers=4, batch_first=True, dropout=0.2)
+  )
+  (attn): Attention(
+    (linear): Linear(in_features=768, out_features=768, bias=False)
+    (softmax): Softmax(dim=-1)
+  )
+  (concat): Linear(in_features=1536, out_features=768, bias=True)
+  (tanh): Tanh()
+  (generator): Generator(
+    (output): Linear(in_features=768, out_features=73771, bias=True)
+    (softmax): LogSoftmax(dim=-1)
+  )
+)
+NLLLoss()
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)
+Traceback (most recent call last):
+  File "train.py", line 361, in <module>
+    main(config)
+  File "train.py", line 340, in main
+    lr_scheduler=lr_scheduler,
+  File "/home/usuaris/veu/joan.muntaner/experiments/simplenmt/simple-nmt/simple_nmt/trainer.py", line 311, in train
+    train_engine.run(train_loader, max_epochs=n_epochs)
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/ignite/engine/engine.py", line 702, in run
+    return self._internal_run()
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/ignite/engine/engine.py", line 775, in _internal_run
+    self._handle_exception(e)
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/ignite/engine/engine.py", line 469, in _handle_exception
+    raise e
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/ignite/engine/engine.py", line 745, in _internal_run
+    time_taken = self._run_once_on_dataset()
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/ignite/engine/engine.py", line 850, in _run_once_on_dataset
+    self._handle_exception(e)
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/ignite/engine/engine.py", line 469, in _handle_exception
+    raise e
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/ignite/engine/engine.py", line 833, in _run_once_on_dataset
+    self.state.output = self._process_function(self, self.state.batch)
+  File "/home/usuaris/veu/joan.muntaner/experiments/simplenmt/simple-nmt/simple_nmt/trainer.py", line 62, in train
+    y_hat = engine.model(x, mini_batch.tgt[0][:, :-1])
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/usuaris/veu/joan.muntaner/experiments/simplenmt/simple-nmt/simple_nmt/models/seq2seq.py", line 308, in forward
+    y_hat = self.generator(h_tilde)
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/usuaris/veu/joan.muntaner/experiments/simplenmt/simple-nmt/simple_nmt/models/seq2seq.py", line 138, in forward
+    y = self.softmax(self.output(x))
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/torch/nn/modules/activation.py", line 1269, in forward
+    return F.log_softmax(input, self.dim, _stacklevel=5)
+  File "/home/usuaris/veu/joan.muntaner/miniconda3/envs/myenv/lib/python3.7/site-packages/torch/nn/functional.py", line 1605, in log_softmax
+    ret = input.log_softmax(dim)
+RuntimeError: CUDA out of memory. Tried to allocate 3.24 GiB (GPU 0; 11.93 GiB total capacity; 9.00 GiB already allocated; 1.47 GiB free; 9.88 GiB reserved in total by PyTorch)
+                                                                                                                        
